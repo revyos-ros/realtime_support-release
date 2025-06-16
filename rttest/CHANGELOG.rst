@@ -2,27 +2,6 @@
 Changelog for package rttest
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.17.0 (2023-11-06)
--------------------
-* Update to C++17 (`#124 <https://github.com/ros2/realtime_support/issues/124>`_)
-* Contributors: Chris Lalancette
-
-0.16.0 (2023-04-27)
--------------------
-
-0.15.0 (2023-02-14)
--------------------
-* [rolling] Update maintainers - 2022-11-07 (`#121 <https://github.com/ros2/realtime_support/issues/121>`_)
-* Contributors: Audrow Nash
-
-0.14.1 (2022-09-13)
--------------------
-* Addressing issues found in Humble testing (`#116 <https://github.com/ros2/realtime_support/issues/116>`_)
-* Contributors: Michael Carroll
-
-0.14.0 (2022-04-29)
--------------------
-
 0.13.0 (2022-03-01)
 -------------------
 * Install includes to include/${PROJECT_NAME} (`#114 <https://github.com/ros2/realtime_support/issues/114>`_)

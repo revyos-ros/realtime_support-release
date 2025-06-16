@@ -6,10 +6,9 @@ if(WIN32 OR APPLE OR ANDROID)
   return()
 endif()
 
-# Default to C++17
+# Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
-  set(CMAKE_CXX_STANDARD 17)
-  set(CMAKE_CXX_STANDARD_REQUIRED ON)
+  set(CMAKE_CXX_STANDARD 14)
 endif()
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra)
@@ -36,9 +35,8 @@ target_link_libraries(tlsf_allocator_example
   ${std_msgs_TARGETS}
   tlsf_cpp)
 
-install(TARGETS
-  tlsf_allocator_example
-  DESTINATION lib/${PROJECT_NAME})
+install(TARGETS tlsf_allocator_example
+  DESTINATION bin)
 
 ament_export_targets(export_tlsf_cpp)
 
