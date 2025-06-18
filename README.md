@@ -1,3 +1,28 @@
+## realtime_support (jazzy) - 0.17.1-3
+
+The packages in the `realtime_support` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r jazzy realtime_support --override-release-repository-push-url git@github.com:revyos-ros/realtime_support-release.git` on `Wed, 18 Jun 2025 07:41:52 -0000`
+
+These packages were released:
+- `rttest`
+- `tlsf_cpp`
+
+Version of package(s) in repository `realtime_support`:
+
+- upstream repository: https://github.com/ros2/realtime_support.git
+- release repository: https://github.com/revyos-ros/realtime_support-release.git
+- rosdistro version: `0.17.1-3`
+- old version: `0.17.1-2`
+- new version: `0.17.1-3`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## realtime_support (jazzy) - 0.17.1-2
 
 The packages in the `realtime_support` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r jazzy realtime_support --override-release-repository-push-url git@github.com:revyos-ros/realtime_support-release.git` on `Wed, 18 Jun 2025 07:37:31 -0000`
